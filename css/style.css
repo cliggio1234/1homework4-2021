@@ -80,21 +80,41 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125 px;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0820;
 
 }
 /*Req 6c*/
 .rowhead{
+  border-radius: 2px;
+  border-color: black;
+
+
 
 }
 
 /*Req 6d*/
+th:nth-child(odd) {
+  background-color: transparent
+
+}
 /*Req 6e*/
+th:nth-child(even){
+  background-color: #d1d1d1;
+}
+
 /*Req 6f*/
+
 
 
 /*Req 7*/
 table{
     border: 2px solid #000000;
+    margin-left: auto;   
+    margin-right: auto; 
+
 }
 
 thead tr:first-child th:first-child{}
@@ -108,5 +128,9 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position: absolute;
+  bottom: 0;
+
 }
 
