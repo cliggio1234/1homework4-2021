@@ -40,6 +40,8 @@ h1{
   color: #c12258;
   font-size: 2em;
   line-height: 2;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
 
 
   /*Req 2*/
@@ -130,7 +132,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: relative;
   bottom: 0;
 
 }
