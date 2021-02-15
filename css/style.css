@@ -11,7 +11,7 @@ Make sure to learn what the starter code does!!
 /*STARTER CODE - DO NOT CHANGE*/
 main{
   margin-bottom: 100px;
-  background-image: ;
+  background-image: url('') ;
 }
 
 caption{
@@ -87,6 +87,7 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
+  border-top-right-radius: 25px;
 
 }
 /*Req 6c*/
@@ -99,12 +100,12 @@ td{
 }
 
 /*Req 6d*/
-th:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: transparent
 
 }
 /*Req 6e*/
-th:nth-child(even){
+tr:nth-child(even){
   background-color: #d1d1d1;
 }
 
@@ -117,10 +118,14 @@ table{
     border: 2px solid #000000;
     margin-left: auto;   
     margin-right: auto; 
+    border-radius: 25px;
+
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+
+}
 
 /*Add selectors and rules here*/
 
