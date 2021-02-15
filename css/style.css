@@ -11,7 +11,7 @@ Make sure to learn what the starter code does!!
 /*STARTER CODE - DO NOT CHANGE*/
 main{
   margin-bottom: 100px;
-  background-image: url('') ;
+  background-image: url('pigeon-background.JPEG') ;
 }
 
 caption{
@@ -116,6 +116,7 @@ tr:nth-child(even){
 /*Req 7*/
 table{
     border: 2px solid #000000;
+    border-collapse: separate;
     margin-left: auto;   
     margin-right: auto; 
     border-radius: 25px;
@@ -124,7 +125,22 @@ table{
 }
 
 thead tr:first-child th:first-child{
+  border-radius: 4px 0 0 0;
 
+}
+tr{
+  display: table-row;
+  vertical-align: inherit;
+}
+th,td{
+  padding:5px 4px 6px 4px;
+  text-align: left;
+  vertical-align: top;
+
+}
+td{
+  border-top: 1px solid black;
+  
 }
 
 /*Add selectors and rules here*/
