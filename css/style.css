@@ -31,10 +31,10 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  background-color: #dddddd;
 
   /*Req 1*/
   background-image: url("../images/pigeon-background.JPEG");
-  background-color: #dddddd;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +104,7 @@ td{
 
 /*Req 6d*/
 tr:nth-child(odd) {
-  background-color: transparent
+  background-color: transparent;
 
 }
 /*Req 6e*/
@@ -143,12 +143,11 @@ tbody tr:last-child th:first-child{
 tbody tr:last-child td:last-child{
   border-radius: 0 0 10px 0;
 }
+tbody tr:hover {
+  background-color: rgb(126, 8, 32, 0.25);
+}
 
     
-  
-tbody tr:hover td{
-  background-color: rbg(126,8,32);
-}
 
 
 /*Add selectors and rules here*/
