@@ -33,6 +33,12 @@ body{
   background-position: center;
 
   /*Req 1*/
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #dddddd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 h1{
@@ -81,18 +87,22 @@ td{
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-  min-width: 125 px;
-  padding-top: 10px;
+  min-width: 125px;
+  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
   border-top-right-radius: 25px;
+  position: relative;
+  top: 50%;
+  border-bottom: 2px solid black;
 
 }
 /*Req 6c*/
 .rowhead{
-  border-radius: 2px;
-  border-color: black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  text-align: center;
 
 
 
@@ -114,19 +124,48 @@ tr:nth-child(even){
 
 /*Req 7*/
 table{
-    border: 2px solid #000000;
-    border-collapse: separate;
-    margin-left: auto;   
-    margin-right: auto; 
-    border-radius: 25px;
+  border: 2px solid #000000;
+  border-collapse: separate;
+  margin-left: auto;   
+  margin-right: auto; 
+  border-radius: 25px;
 
 
 }
 
 thead tr:first-child th:first-child{
-  border-radius: 4px 0 0 0;
+  border-radius: 25px 0 0 0;
 
 }
+thead tr:first-child th:nth-child(2){
+  border-radius: 0 0 0 0;
+
+}
+thead tr:first-child th:nth-child(3){
+  border-radius: 0 0 0 0;
+}
+thead tr:first-child th:nth-child(4){
+  border-radius: 0 0 0 0;
+}
+thead tr:first-child th:nth-child(5){
+  border-radius: 0 0 0 0;
+}
+thead tr:first-child th:nth-child(6){
+  border-radius: 0 0 0 0;
+}
+thead tr:first-child th:nth-child(7){
+  border-radius: 0 25px 0 0;
+}
+  
+tbody tr:last-child th:first-child{
+  border-radius: 0 0 0 25px;
+}
+tbody tr:last-child th:nth-child(7){
+  border-radius: 25px 0 0 0;
+}
+
+    
+  
 tr{
   display: table-row;
   vertical-align: inherit;
@@ -139,6 +178,8 @@ th,td{
 }
 td{
   border-top: 1px solid black;
+  text-align: center;
+
   
 }
 
