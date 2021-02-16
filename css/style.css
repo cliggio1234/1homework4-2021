@@ -11,7 +11,6 @@ Make sure to learn what the starter code does!!
 /*STARTER CODE - DO NOT CHANGE*/
 main{
   margin-bottom: 100px;
-  background-image: url('pigeon-background.JPEG') ;
 }
 
 caption{
@@ -53,7 +52,7 @@ p{
 }
 
 a{ 
-  color: #B21F50;
+  color:#C12258;
   font-size: 16px;
   text-decoration-line: underline;
   text-decoration-style: wavy;
