@@ -80,8 +80,9 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
-  border-top: black, 2px;
+  border-top: 2px solid black;
   padding: 10px;
+  
 }
 
 /*Req 6b*/
@@ -92,20 +93,13 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
-  border-top-right-radius: 25px;
-  position: relative;
-  top: 50%;
-  border-bottom: 2px solid black;
+  vertical-align: middle;
 
 }
 /*Req 6c*/
 .rowhead{
   border-right: 2px solid black;
   border-top: 2px solid black;
-  text-align: center;
-
-
-
 }
 
 /*Req 6d*/
@@ -128,65 +122,34 @@ table{
   border-collapse: separate;
   margin-left: auto;   
   margin-right: auto; 
-  border-radius: 25px;
+  border-radius: 10px;
 
 
 }
 
 thead tr:first-child th:first-child{
-  border-radius: 25px 0 0 0;
+  border-radius: 10px 0 0 0;
 
 }
-thead tr:first-child th:nth-child(2){
-  border-radius: 0 0 0 0;
 
-}
-thead tr:first-child th:nth-child(3){
-  border-radius: 0 0 0 0;
-
-}
-thead tr:first-child th:nth-child(4){
-  border-radius: 0 0 0 0;
-
-}
-thead tr:first-child th:nth-child(5){
-  border-radius: 0 0 0 0;
-
-}
-thead tr:first-child th:nth-child(6){
-  border-radius: 0 0 0 0;
-
-}
 
 thead tr:first-child th:last-child{
-  border-radius: 0 25px 0 0;
+  border-radius: 0 10px 0 0;
 
 }
 tbody tr:last-child th:first-child{
-  border-radius: 0 0 0 25px;
+  border-radius: 0 0 0 10px;
 }
 tbody tr:last-child td:last-child{
-  border-radius: 0 0 25px 0;
+  border-radius: 0 0 10px 0;
 }
 
     
   
-tr{
-  display: table-row;
-  vertical-align: inherit;
+tbody tr:hover td{
+  background-color: rbg(126,8,32);
 }
-th,td{
-  padding:5px 4px 6px 4px;
-  text-align: left;
-  vertical-align: top;
 
-}
-td{
-  border-top: 1px solid black;
-  text-align: center;
-
-  
-}
 
 /*Add selectors and rules here*/
 
@@ -198,8 +161,9 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: relative;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 
 }
 
