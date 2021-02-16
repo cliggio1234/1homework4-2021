@@ -160,8 +160,8 @@ thead tr:first-child th:nth-child(7){
 tbody tr:last-child th:first-child{
   border-radius: 0 0 0 25px;
 }
-tbody tr:last-child th:nth-child(7){
-  border-radius: 25px 0 0 0;
+tbody tr:last-child th:last-child{
+  border-radius: 25px 25px 25px 25px;
 }
 
     
