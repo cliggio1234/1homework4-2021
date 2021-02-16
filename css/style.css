@@ -31,10 +31,10 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-  background-color: #dddddd;
 
   /*Req 1*/
   background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@ body{
 }
 
 h1{
-  color: #c12258;
+  color:#C12258;
   font-size: 2em;
   line-height: 2;
   text-align: center;
@@ -58,7 +58,7 @@ p{
 }
 
 a{ 
-  color:#C12258;
+  color: #B21F50;
   font-size: 16px;
   text-decoration-line: underline;
   text-decoration-style: wavy;
